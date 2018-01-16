@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo ********************************************
+echo * Building halium image
+echo * halium device: $HALIUM_DEVICE
+echo ********************************************
+
 mkdir build
 cd build
 

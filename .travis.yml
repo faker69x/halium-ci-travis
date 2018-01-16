@@ -1,7 +1,8 @@
 dist: trusty
 language: c
 sudo: required
-cache: ccache
+cache:
+  - ccache
   directories:
     - build
 before_install:

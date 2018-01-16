@@ -28,7 +28,7 @@ source build/envsetup.sh
 breakfast $HALIUM_DEVICE
 
 # compile and build everything
-mka mkbootimg
-mka hybris-boot
-mka systemimage
+mka mkbootimg -w
+mka hybris-boot -w
+mka systemimage -w
 

@@ -5,6 +5,8 @@ echo * Building halium image
 echo * halium device: $HALIUM_DEVICE
 echo ********************************************
 
+echo '{"color.ui": ["auto"]}' > ~/.repo_.gitconfig.json
+
 mkdir build
 cd build
 

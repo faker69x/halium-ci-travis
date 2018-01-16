@@ -5,7 +5,7 @@ echo * Building halium image
 echo * halium device: $HALIUM_DEVICE
 echo ********************************************
 
-echo '{"color.ui": ["auto"]}' > ~/.repo_.gitconfig.json
+echo '{"color.ui": ["auto"], "user.email": ["travis-ci@noreply.halium.org"], "user.name": ["Halium Travis-CI User"]}' > ~/.repo_.gitconfig.json
 
 export USE_CCACHE=1
 

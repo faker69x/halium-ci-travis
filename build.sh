@@ -21,7 +21,7 @@ cd halium
 git clone https://github.com/halium/halium-devices --branch=halium-7.1 --depth=1
 cd ..
 
-JOBS=15 ./halium/halium-devices/setup $HALIUM_DEVICE
+JOBS=25 ./halium/halium-devices/setup $HALIUM_DEVICE
 
 # setup for building
 source build/envsetup.sh

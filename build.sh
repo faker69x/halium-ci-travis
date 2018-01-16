@@ -7,6 +7,8 @@ echo ********************************************
 
 echo '{"color.ui": ["auto"]}' > ~/.repo_.gitconfig.json
 
+export USE_CCACHE=1
+
 mkdir build
 cd build
 
